@@ -9,12 +9,12 @@ terraform {
       version = "3.0.1"
     }
   }
+}
   required_version = ">= 0.14"
 
 
 provider "aws" {
   region = "us-east-2"
-
 }
 
 resource "aws_instance" "my-server" {
