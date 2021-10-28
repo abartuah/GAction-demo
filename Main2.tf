@@ -18,7 +18,7 @@ resource "aws_instance" "my-server" {
            echo " this is my first web -server" > /var/www/html/index.html
            EOF
     tags = {
-      name = "web1-server"
+      name = "myserver"
     }  
 }    
 
